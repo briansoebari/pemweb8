@@ -1048,5 +1048,10 @@ echo "<br>";
 //Menampilkan pesan sukses jika berhasil menyimpan data
 echo $pesan_sukses;
 ?>
+<button onclick="location.href='cetakdataexcel.php';" id="cetakdataexcel" class="btn btn-danger"> Cetak Data Ini </button>
+
+<!-- Button Cetak PDF-->
+<button onclick="location.href = 'cetakpdf.php';" id="cetakpdf" class="btn btn-success"> Cetak File PDF </button> 
+
 </body>
 </html>
